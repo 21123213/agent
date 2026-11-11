@@ -1,0 +1,24 @@
+# 本地/演示编排：Redis + Jaeger(OTLP) +（可选）仅依赖服务
+# 启动：docker compose up -d redis jaeger
+# server 进程仍可在宿主机用 uvicorn；配置：
+#   OTEL_EXPORTER_OTLP_ENDPOINT=http://127.0.0.1:4317
+#   REDIS_HOST=127.0.0.1
+services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  jaeger:
+    image: jaegertracing/all-in-one:1.57
+    environment:
+      - COLLECTOR_OTLP_ENABLED=true
+    ports:
+      - "16686:16686" # UI
+      - "4317:4317" # OTLP gRPC
+      - "4318:4318" # OTLP HTTP
+
+volumes:
+  redis_data:

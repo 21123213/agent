@@ -1,0 +1,2316 @@
+{
+    "tests": [
+        {
+            "query": "Consider the Non-Disclosure Agreement between CopAcc and ToP Mentors; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/CopAcc_NDA-and-ToP-Mentors_2.0_2017.txt",
+                    "span": [
+                        11461,
+                        11963
+                    ],
+                    "answer": "Any and all proprietary rights, including but not limited to rights to and in inventions, patent rights, utility models, copyrights, trademarks and trade secrets, in and to any Confidential Information shall be and remain with the Participants respectively, and Mentor shall not have any right, license, title or interest in or to any Confidential Information, except the limited right to review, assess and help develop such Confidential Information in connection with the Copernicus Accelerator 2017."
+                }
+            ]
+        },
+        {
+            "query": "Consider the Non-Disclosure Agreement between CopAcc and ToP Mentors; Does the document state that Confidential Information shall only include technical information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/CopAcc_NDA-and-ToP-Mentors_2.0_2017.txt",
+                    "span": [
+                        7752,
+                        8016
+                    ],
+                    "answer": "“Confidential Information” means any Idea disclosed to Mentor, all data and information, know-how, business concepts, software, procedures, products, services, development projects, and programmes contained in such Idea and/or its description and any conclusions. "
+                }
+            ]
+        },
+        {
+            "query": "Consider the Non-Disclosure Agreement between CopAcc and ToP Mentors; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/CopAcc_NDA-and-ToP-Mentors_2.0_2017.txt",
+                    "span": [
+                        12076,
+                        12328
+                    ],
+                    "answer": "Notwithstanding the termination of this Agreement, any Confidential Information must be kept confidential for as long as such Confidential Information is not publicly known unless it becomes part of the public domain through no wrongful act of Mentor. "
+                }
+            ]
+        },
+        {
+            "query": "Consider the Non-Disclosure Agreement between CopAcc and ToP Mentors; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/CopAcc_NDA-and-ToP-Mentors_2.0_2017.txt",
+                    "span": [
+                        10013,
+                        10056
+                    ],
+                    "answer": "At Organiser’s first request, Mentor shall:"
+                },
+                {
+                    "file_path": "contractnli/CopAcc_NDA-and-ToP-Mentors_2.0_2017.txt",
+                    "span": [
+                        10391,
+                        10729
+                    ],
+                    "answer": "(d) erase and/or destroy any Confidential Information contained in computer memory or data storage apparatus of, under control of or used by Mentor;\n(e) remove the Confidential Information from any software or data base of, under control of/or used by Mentor that incorporates or uses the Confidential Information in whole or in part; and"
+                }
+            ]
+        },
+        {
+            "query": "Consider the Non-Disclosure Agreement between CopAcc and ToP Mentors; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/CopAcc_NDA-and-ToP-Mentors_2.0_2017.txt",
+                    "span": [
+                        8667,
+                        8837
+                    ],
+                    "answer": "Mentor shall not disclose any Confidential Information to any third party or to Mentor’s employees and/or employer without the prior written consent of the Participants. "
+                }
+            ]
+        },
+        {
+            "query": "Consider the Non-Disclosure Agreement between CopAcc and ToP Mentors; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/CopAcc_NDA-and-ToP-Mentors_2.0_2017.txt",
+                    "span": [
+                        10929,
+                        11277
+                    ],
+                    "answer": "If Mentor is required by mandatory, non-appealable judicial or administrative process and/or order to disclose Confidential Information, then Mentor shall promptly notify Organiser and allow Organiser and the Participants reasonable time to oppose such process unless this is not admissible under a mandatory law, judicial or administrative order. "
+                }
+            ]
+        },
+        {
+            "query": "Consider the Non-Disclosure Agreement between CopAcc and ToP Mentors; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/CopAcc_NDA-and-ToP-Mentors_2.0_2017.txt",
+                    "span": [
+                        8016,
+                        8058
+                    ],
+                    "answer": "Confidential Information does not include:"
+                },
+                {
+                    "file_path": "contractnli/CopAcc_NDA-and-ToP-Mentors_2.0_2017.txt",
+                    "span": [
+                        8242,
+                        8326
+                    ],
+                    "answer": "> information received from a third party who was free to disclose such information."
+                }
+            ]
+        },
+        {
+            "query": "Consider the Non-Disclosure Agreement between CopAcc and ToP Mentors; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/CopAcc_NDA-and-ToP-Mentors_2.0_2017.txt",
+                    "span": [
+                        8667,
+                        8837
+                    ],
+                    "answer": "Mentor shall not disclose any Confidential Information to any third party or to Mentor’s employees and/or employer without the prior written consent of the Participants. "
+                }
+            ]
+        },
+        {
+            "query": "Consider the Non-Disclosure Agreement between CopAcc and ToP Mentors; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/CopAcc_NDA-and-ToP-Mentors_2.0_2017.txt",
+                    "span": [
+                        8534,
+                        8666
+                    ],
+                    "answer": "Mentor shall not use any Confidential Information for any purpose except to review, assess and help develop the Participants´ Ideas."
+                }
+            ]
+        },
+        {
+            "query": "Consider DBT's Mutual Non-Disclosure Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/DBT%20Mutual%20NDA.txt",
+                    "span": [
+                        5283,
+                        5540
+                    ],
+                    "answer": "5. No Further Rights All Confidential Information is and shall remain the property of Disclosing Party. Nothing contained in this Agreement shall be construed to as granting or conferring any rights in the Confidential Information except as provided herein."
+                }
+            ]
+        },
+        {
+            "query": "Consider DBT's Mutual Non-Disclosure Agreement; Does the document include a clause that prevents the Receiving Party from disclosing the fact that the Agreement was agreed upon or negotiated?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/DBT%20Mutual%20NDA.txt",
+                    "span": [
+                        2947,
+                        3162
+                    ],
+                    "answer": "The existence of any business negotiations, discussions, consultations, or agreements in progress between the parties shall not be released to any form of public media, unless agreed between the parties in writing. "
+                }
+            ]
+        },
+        {
+            "query": "Consider DBT's Mutual Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/DBT%20Mutual%20NDA.txt",
+                    "span": [
+                        1259,
+                        1766
+                    ],
+                    "answer": "Confidential Information includes, without limitation, non-public information relating to released or unreleased Disclosing Party software products, the marketing or promotion of any Disclosing Party product, Disclosing Party’s business policies or practices, financial information, technical information, computer systems, infrastructure designs, data, analysis, compilations, studies or other documentation and information received from others that Disclosing Party is obligated to treat as confidential. "
+                }
+            ]
+        },
+        {
+            "query": "Consider DBT's Mutual Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/DBT%20Mutual%20NDA.txt",
+                    "span": [
+                        939,
+                        1259
+                    ],
+                    "answer": "1. Confidential Information “Confidential Information” means nonpublic information that disclosing party (“Disclosing Party”) designates as being confidential or which, under the circumstances surrounding disclosure the receiving party (“Receiving Party”) should know is treated as confidential by the Disclosing Party. "
+                }
+            ]
+        },
+        {
+            "query": "Consider DBT's Mutual Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/DBT%20Mutual%20NDA.txt",
+                    "span": [
+                        1910,
+                        1975
+                    ],
+                    "answer": "Confidential Information shall not include any information that: "
+                },
+                {
+                    "file_path": "contractnli/DBT%20Mutual%20NDA.txt",
+                    "span": [
+                        2385,
+                        2493
+                    ],
+                    "answer": "(iv) is independently developed by Receiving Party without access to the Disclosing Party’s information, or "
+                }
+            ]
+        },
+        {
+            "query": "Consider DBT's Mutual Non-Disclosure Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/DBT%20Mutual%20NDA.txt",
+                    "span": [
+                        4628,
+                        4874
+                    ],
+                    "answer": "Upon the request of the Disclosing Party, Receiving Party shall return all originals, copies, reproductions and summaries of Confidential Information at Disclosing Party’s request, or at Disclosing Party’s option, certify destruction of the same."
+                }
+            ]
+        },
+        {
+            "query": "Consider DBT's Mutual Non-Disclosure Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/DBT%20Mutual%20NDA.txt",
+                    "span": [
+                        1910,
+                        1975
+                    ],
+                    "answer": "Confidential Information shall not include any information that: "
+                },
+                {
+                    "file_path": "contractnli/DBT%20Mutual%20NDA.txt",
+                    "span": [
+                        2493,
+                        2707
+                    ],
+                    "answer": "(v) the Confidential Information is required to be disclosed pursuant to a requirement of a governmental agency or law so long as the other party is provided notice of such requirement prior to any such disclosure."
+                }
+            ]
+        },
+        {
+            "query": "Consider DBT's Mutual Non-Disclosure Agreement; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/DBT%20Mutual%20NDA.txt",
+                    "span": [
+                        1910,
+                        1975
+                    ],
+                    "answer": "Confidential Information shall not include any information that: "
+                },
+                {
+                    "file_path": "contractnli/DBT%20Mutual%20NDA.txt",
+                    "span": [
+                        2218,
+                        2385
+                    ],
+                    "answer": "(iii) became known to Receiving Party from a source other than Disclosing Party other than by the breach of an obligation of confidentiality owed to Disclosing Party; "
+                },
+                {
+                    "file_path": "contractnli/DBT%20Mutual%20NDA.txt",
+                    "span": [
+                        5559,
+                        5906
+                    ],
+                    "answer": "The parties expressly agree that the provision of Information hereunder and discussions held in connection with the Transaction shall not prevent either party from pursuing similar discussions with third parties or obligate either party to continue discussions with the other or to take, continue or forego any action relating to the Transaction. "
+                }
+            ]
+        },
+        {
+            "query": "Consider DBT's Mutual Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/DBT%20Mutual%20NDA.txt",
+                    "span": [
+                        3904,
+                        4255
+                    ],
+                    "answer": "The Receiving Party agrees disclose Confidential Information only to those employees who need to know such information and certifies that such employees have previously agreed, either as a condition to employment or in order to obtain the Confidential Information, to be bound by terms and conditions substantially similar to those of this Agreement. "
+                }
+            ]
+        },
+        {
+            "query": "Consider DBT's Mutual Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/DBT%20Mutual%20NDA.txt",
+                    "span": [
+                        2723,
+                        2947
+                    ],
+                    "answer": "Each party agrees that it shall not make use of, disseminate, or in any way disclose any Confidential Information of the Disclosing Party to any person, firm, or business, except to the extent necessary for the Transaction. "
+                }
+            ]
+        },
+        {
+            "query": "Consider the Data Use Agreement in New York City; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Data Use Agreement New York City.txt",
+                    "span": [
+                        2556,
+                        3015
+                    ],
+                    "answer": "2. Upon the termination of this Agreement for any reason, the confidentiality provisions set forth herein shall continue to apply to the Data shared with Data Recipient pursuant to this Agreement. Except as provided in paragraph (3) of this subsection, upon termination of this Agreement, for any reason, Data Recipient shall return or destroy the Data provided by DOHMH that Data Recipient maintains in any form, and all copies of the Data in all its forms. "
+                },
+                {
+                    "file_path": "contractnli/Data Use Agreement New York City.txt",
+                    "span": [
+                        3180,
+                        3769
+                    ],
+                    "answer": "3. In the event that Data Recipient determines that returning or destroying all of the Data, and all copies of the Data, is infeasible, Data Recipient shall provide to DOHMH notification of the conditions that make return or destruction infeasible. Upon receipt by DOHMH of such notification that return or destruction of the Data is infeasible, Data Recipient shall extend the protections of this Agreement to such Data and limit further uses and disclosures of such Data to those purposes that make the return or destruction infeasible, for so long as Data Recipient maintains such Data."
+                }
+            ]
+        },
+        {
+            "query": "Consider the Data Use Agreement in New York City; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Data Use Agreement New York City.txt",
+                    "span": [
+                        5210,
+                        5435
+                    ],
+                    "answer": "The Data Recipient hereby acknowledges that the DOHMH is the exclusive owner of the Data and all trade secrets and other rights therein. No license or conveyance of any such rights is granted or implied under this Agreement. "
+                }
+            ]
+        },
+        {
+            "query": "Consider the Data Use Agreement in New York City; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Data Use Agreement New York City.txt",
+                    "span": [
+                        2556,
+                        2753
+                    ],
+                    "answer": "2. Upon the termination of this Agreement for any reason, the confidentiality provisions set forth herein shall continue to apply to the Data shared with Data Recipient pursuant to this Agreement. "
+                },
+                {
+                    "file_path": "contractnli/Data Use Agreement New York City.txt",
+                    "span": [
+                        13238,
+                        13443
+                    ],
+                    "answer": "Upon the Expiration of this Agreement, only the continued use of Data for the purposes set forth in Attachment B will cease. All other provisions of this Agreement, including this Section V, shall survive."
+                }
+            ]
+        },
+        {
+            "query": "Consider the Data Use Agreement in New York City; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Data Use Agreement New York City.txt",
+                    "span": [
+                        3180,
+                        3769
+                    ],
+                    "answer": "3. In the event that Data Recipient determines that returning or destroying all of the Data, and all copies of the Data, is infeasible, Data Recipient shall provide to DOHMH notification of the conditions that make return or destruction infeasible. Upon receipt by DOHMH of such notification that return or destruction of the Data is infeasible, Data Recipient shall extend the protections of this Agreement to such Data and limit further uses and disclosures of such Data to those purposes that make the return or destruction infeasible, for so long as Data Recipient maintains such Data."
+                }
+            ]
+        },
+        {
+            "query": "Consider the Data Use Agreement in New York City; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Data Use Agreement New York City.txt",
+                    "span": [
+                        6985,
+                        7273
+                    ],
+                    "answer": "1. Only the Data Recipient’s employees and/or consultants required to use the Data to perform the functions of this Agreement that are set forth in Attachment B, and so designated by Data Recipient as “Authorized Users” in Attachment C to this Agreement, will be given access to the Data."
+                },
+                {
+                    "file_path": "contractnli/Data Use Agreement New York City.txt",
+                    "span": [
+                        20091,
+                        20297
+                    ],
+                    "answer": "A. Nothing express or implied in this Agreement is intended to confer, nor shall anything herein confer, upon any person other than the Parties, any rights, remedies, obligations, or liabilities whatsoever."
+                }
+            ]
+        },
+        {
+            "query": "Consider the Data Use Agreement in New York City; Does the document permit the Receiving Party to create a copy of some Confidential Information under certain circumstances?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Data Use Agreement New York City.txt",
+                    "span": [
+                        13089,
+                        13224
+                    ],
+                    "answer": "Except as set forth in Section III, Data Recipient shall not reproduce the Data in any form without the prior written consent of DOHMH."
+                }
+            ]
+        },
+        {
+            "query": "Consider the Data Use Agreement in New York City; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Data Use Agreement New York City.txt",
+                    "span": [
+                        6985,
+                        7273
+                    ],
+                    "answer": "1. Only the Data Recipient’s employees and/or consultants required to use the Data to perform the functions of this Agreement that are set forth in Attachment B, and so designated by Data Recipient as “Authorized Users” in Attachment C to this Agreement, will be given access to the Data."
+                }
+            ]
+        },
+        {
+            "query": "Consider the Data Use Agreement in New York City; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Data Use Agreement New York City.txt",
+                    "span": [
+                        6191,
+                        6327
+                    ],
+                    "answer": "A. Data Recipient agrees to use the Data solely for the purposes set forth in Attachment B to this Agreement, and for no other purposes."
+                },
+                {
+                    "file_path": "contractnli/Data Use Agreement New York City.txt",
+                    "span": [
+                        8751,
+                        9029
+                    ],
+                    "answer": "Except as otherwise provided in this Agreement, Data Recipient shall not, at any time, directly or indirectly disclose, share, give, loan, sell, or otherwise grant access to the Data provided pursuant to this Agreement, in part or in whole, to any other person or organization. "
+                }
+            ]
+        },
+        {
+            "query": "Consider the Non-Disclosure Agreement between DoiT and ICN; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/DoiT-ICN-NonDisclosure-Agreement.txt",
+                    "span": [
+                        2270,
+                        2403
+                    ],
+                    "answer": "3. All CONFIDENTIAL INFORMATION furnished hereunder shall be returned at the conclusion of each meeting between Vendor and the State."
+                }
+            ]
+        },
+        {
+            "query": "Consider the Non-Disclosure Agreement between DoiT and ICN; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/DoiT-ICN-NonDisclosure-Agreement.txt",
+                    "span": [
+                        1674,
+                        1874
+                    ],
+                    "answer": "2. No license under any trademark, patent, copyright, mask work protection right or any other intellectual property right is either granted or implied by conveying CONFIDENTIAL INFORMATION to Vendor. "
+                }
+            ]
+        },
+        {
+            "query": "Consider the Non-Disclosure Agreement between DoiT and ICN; Does the document state that Confidential Information shall only include technical information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/DoiT-ICN-NonDisclosure-Agreement.txt",
+                    "span": [
+                        225,
+                        517
+                    ],
+                    "answer": "WHEREAS, both parties, for their mutual benefit, desire to have the State disclose to Vendor certain specifications, designs, plans, drawings or other business and/or technical information which is proprietary, restricted or secret, and confidential to the State (“CONFIDENTIAL INFORMATION\")."
+                }
+            ]
+        },
+        {
+            "query": "Consider the Non-Disclosure Agreement between DoiT and ICN; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/DoiT-ICN-NonDisclosure-Agreement.txt",
+                    "span": [
+                        2479,
+                        2887
+                    ],
+                    "answer": "5. The obligations of this Agreement with respect to the disclosure and use of CONFIDENTIAL INFORMATION shall survive for a period of three (3) years from the date of last disclosure.\n6. The parties recognize and agree that the obligations under paragraphs 1 and 6 of this Agreement shall survive the termination of this Agreement, and the parties shall be bound by such obligations after termination hereof."
+                }
+            ]
+        },
+        {
+            "query": "Consider the Non-Disclosure Agreement between DoiT and ICN; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/DoiT-ICN-NonDisclosure-Agreement.txt",
+                    "span": [
+                        1112,
+                        1673
+                    ],
+                    "answer": "These restrictions on the use or disclosure of CONFIDENTIAL INFORMATION shall not apply to any CONFIDENTIAL INFORMATION: i. which is independently developed by Vendor or is lawfully received free of restriction from another source having the right to so furnish such CONFIDENTIAL INFORMATION; ii. after it has become generally available to the public without breach of this Agreement by Vendor; iii. which, at the time of disclosure to Vendor, was known to Vendor to be free of restriction; or iv. which the State agrees in writing is free of such restrictions."
+                }
+            ]
+        },
+        {
+            "query": "Consider the Non-Disclosure Agreement between DoiT and ICN; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/DoiT-ICN-NonDisclosure-Agreement.txt",
+                    "span": [
+                        829,
+                        1111
+                    ],
+                    "answer": "Vendor shall restrict disclosure of such CONFIDENTIAL INFORMATION to its employees with a need to know (and advise such employees of the obligations assumed herein), and shall not disclose such CONFIDENTIAL INFORMATION to any third party without prior written approval of the State."
+                }
+            ]
+        },
+        {
+            "query": "Consider the Non-Disclosure Agreement between DoiT and ICN; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/DoiT-ICN-NonDisclosure-Agreement.txt",
+                    "span": [
+                        1112,
+                        1610
+                    ],
+                    "answer": "These restrictions on the use or disclosure of CONFIDENTIAL INFORMATION shall not apply to any CONFIDENTIAL INFORMATION: i. which is independently developed by Vendor or is lawfully received free of restriction from another source having the right to so furnish such CONFIDENTIAL INFORMATION; ii. after it has become generally available to the public without breach of this Agreement by Vendor; iii. which, at the time of disclosure to Vendor, was known to Vendor to be free of restriction; or iv. "
+                }
+            ]
+        },
+        {
+            "query": "Consider the Non-Disclosure Agreement between DoiT and ICN; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/DoiT-ICN-NonDisclosure-Agreement.txt",
+                    "span": [
+                        829,
+                        1111
+                    ],
+                    "answer": "Vendor shall restrict disclosure of such CONFIDENTIAL INFORMATION to its employees with a need to know (and advise such employees of the obligations assumed herein), and shall not disclose such CONFIDENTIAL INFORMATION to any third party without prior written approval of the State."
+                }
+            ]
+        },
+        {
+            "query": "Consider the Non-Disclosure Agreement between DoiT and ICN; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/DoiT-ICN-NonDisclosure-Agreement.txt",
+                    "span": [
+                        573,
+                        829
+                    ],
+                    "answer": "1. Vendor shall use such CONFIDENTIAL INFORMATION only for the purpose of discussing street level route information for the State’s fiber optic network data points and paths with the State’s support team in discussions regarding the State’s fiber project. "
+                }
+            ]
+        },
+        {
+            "query": "Consider EFCA's Non-Disclosure Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/EFCAConfidentialityAgreement.txt",
+                    "span": [
+                        3765,
+                        4187
+                    ],
+                    "answer": "The disclosing party reserves all rights in its Confidential Information and no rights or obligations other than those expressly recited herein are granted or to be implied from this Agreement. In particular, no licence is hereby granted directly or indirectly under any patent, invention, discovery, copyright or other industrial property right now or in the future held, made, obtained or licensable by the other party. "
+                }
+            ]
+        },
+        {
+            "query": "Consider EFCA's Non-Disclosure Agreement; Does the document include a clause that prevents the Receiving Party from disclosing the fact that the Agreement was agreed upon or negotiated?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/EFCAConfidentialityAgreement.txt",
+                    "span": [
+                        4493,
+                        4856
+                    ],
+                    "answer": "EFCA agrees to keep the existence and nature of this Agreement confidential and not to use the same or the name of the disclosing party (or of any company in the Group of Companies of which the disclosing party forms part) in any publicity, advertisement or other disclosure with regard to this Agreement without the prior written consent of the disclosing party."
+                }
+            ]
+        },
+        {
+            "query": "Consider EFCA's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/EFCAConfidentialityAgreement.txt",
+                    "span": [
+                        306,
+                        498
+                    ],
+                    "answer": "(A) The parties for their mutual benefit may have exchanged and wish further to exchange certain confidential information (including but not limited to trade secrets and proprietary know-how)."
+                },
+                {
+                    "file_path": "contractnli/EFCAConfidentialityAgreement.txt",
+                    "span": [
+                        855,
+                        1351
+                    ],
+                    "answer": "Confidential Information means any and all information which is now or at any time disclosed to one party by the other party and shall include without limitation, data, know-how, formulae, recipes, processes, designs and design rights, photographs, drawings, plans, intentions, product information, trade secrets, market opportunities, specifications, manufacturing data, which is disclosed to EFCA before or after the date of this Agreement but shall exclude any part of such information which:-"
+                }
+            ]
+        },
+        {
+            "query": "Consider EFCA's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/EFCAConfidentialityAgreement.txt",
+                    "span": [
+                        2648,
+                        2663
+                    ],
+                    "answer": "3.1 EFCA shall:"
+                },
+                {
+                    "file_path": "contractnli/EFCAConfidentialityAgreement.txt",
+                    "span": [
+                        2999,
+                        3236
+                    ],
+                    "answer": "3.1.2 notwithstanding the completion of any purpose for which any Confidential Information has been disclosed or the return of documents and materials as aforesaid, continue to the bound by the undertakings set out in clauses 2, 4 and 5."
+                }
+            ]
+        },
+        {
+            "query": "Consider EFCA's Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/EFCAConfidentialityAgreement.txt",
+                    "span": [
+                        855,
+                        1351
+                    ],
+                    "answer": "Confidential Information means any and all information which is now or at any time disclosed to one party by the other party and shall include without limitation, data, know-how, formulae, recipes, processes, designs and design rights, photographs, drawings, plans, intentions, product information, trade secrets, market opportunities, specifications, manufacturing data, which is disclosed to EFCA before or after the date of this Agreement but shall exclude any part of such information which:-"
+                },
+                {
+                    "file_path": "contractnli/EFCAConfidentialityAgreement.txt",
+                    "span": [
+                        1436,
+                        1455
+                    ],
+                    "answer": "1.2 EFCA can show:-"
+                },
+                {
+                    "file_path": "contractnli/EFCAConfidentialityAgreement.txt",
+                    "span": [
+                        1741,
+                        1886
+                    ],
+                    "answer": "1.2.2 to have been developed by EFCA, or EFCA’s principals, at any time independently of any information disclosed to it by the disclosing party."
+                }
+            ]
+        },
+        {
+            "query": "Consider EFCA's Non-Disclosure Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/EFCAConfidentialityAgreement.txt",
+                    "span": [
+                        2648,
+                        2998
+                    ],
+                    "answer": "3.1 EFCA shall:\n3.1.1 immediately upon receipt of a written request from the disclosing part, return to the disclosing party all documents and materials (and all copies thereof) containing the disclosing party’s Confidential Information and certify in writing to the disclosing party that it has complied with the requirements of this sub-clause; and"
+                }
+            ]
+        },
+        {
+            "query": "Consider EFCA's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/EFCAConfidentialityAgreement.txt",
+                    "span": [
+                        2282,
+                        2459
+                    ],
+                    "answer": "EFCA shall ensure that disclosure of such Confidential Information is restricted to those employees or directors of EFCA and EFCA’s principals having the need to know the same. "
+                },
+                {
+                    "file_path": "contractnli/EFCAConfidentialityAgreement.txt",
+                    "span": [
+                        3265,
+                        3392
+                    ],
+                    "answer": "4.1 EFCA shall:\n4.1.1 not divulge the disclosing party’s Confidential Information, in whole or in part, to any third party; and"
+                }
+            ]
+        },
+        {
+            "query": "Consider EFCA's Non-Disclosure Agreement; Does the document permit the Receiving Party to create a copy of some Confidential Information under certain circumstances?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/EFCAConfidentialityAgreement.txt",
+                    "span": [
+                        2459,
+                        2609
+                    ],
+                    "answer": "Copies or reproductions shall not be made except to the extent reasonably necessary and all copies made shall be the property of the disclosing party."
+                }
+            ]
+        },
+        {
+            "query": "Consider EFCA's Non-Disclosure Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/EFCAConfidentialityAgreement.txt",
+                    "span": [
+                        3513,
+                        3760
+                    ],
+                    "answer": "Notwithstanding the foregoing, EFCA shall be entitled to make any disclosure required by law of the disclosing party’s Confidential Information provided that it gives the disclosing party not less than two business days’ notice of such disclosure."
+                }
+            ]
+        },
+        {
+            "query": "Consider EFCA's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/EFCAConfidentialityAgreement.txt",
+                    "span": [
+                        2282,
+                        2459
+                    ],
+                    "answer": "EFCA shall ensure that disclosure of such Confidential Information is restricted to those employees or directors of EFCA and EFCA’s principals having the need to know the same. "
+                }
+            ]
+        },
+        {
+            "query": "Consider EFCA's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/EFCAConfidentialityAgreement.txt",
+                    "span": [
+                        3265,
+                        3280
+                    ],
+                    "answer": "4.1 EFCA shall:"
+                },
+                {
+                    "file_path": "contractnli/EFCAConfidentialityAgreement.txt",
+                    "span": [
+                        3393,
+                        3513
+                    ],
+                    "answer": "4.1.2 make no commercial use of the same or any part thereof without the prior written consent of the disclosing party. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Eskom's Confidentiality and Non-Disclosure Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        4271,
+                        4606
+                    ],
+                    "answer": "6.4. For the avoidance of doubt, notwithstanding anything to the contrary contained in this Agreement, the Parties agree that Eskom shall not be precluded in any manner whatsoever from further using, exploiting or disclosing any outcomes, reports, analysis or data compiled and/or developed by the Counterparty pursuant to the Project."
+                },
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        7751,
+                        8090
+                    ],
+                    "answer": "All Confidential Information disclosed by the Disclosing Party to the Receiving Party is acknowledged by the Receiving Party to be proprietary to and the exclusive property of the Disclosing Party. This Agreement shall not confer any rights of ownership or license on the Receiving Party of whatever nature in the Confidential Information."
+                }
+            ]
+        },
+        {
+            "query": "Consider Eskom's Confidentiality and Non-Disclosure Agreement; Does the document include a clause that prevents the Receiving Party from disclosing the fact that the Agreement was agreed upon or negotiated?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        3825,
+                        4181
+                    ],
+                    "answer": "6.3. Subject to 6.5, the Receiving Party agrees that it will not, during the existence of this Agreement disclose the Confidential Information to any Third Party for any reason or purpose whatsoever, without the prior written consent of the Disclosing Party and only to the extent of such consent, save in accordance with the provisions of this Agreement. "
+                },
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        18326,
+                        18527
+                    ],
+                    "answer": "Neither Party will make or issue any formal or informal announcement or statement to the press or any Third Party in connection with this Agreement without the prior written consent of the other Party."
+                }
+            ]
+        },
+        {
+            "query": "Consider Eskom's Confidentiality and Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        0,
+                        44
+                    ],
+                    "answer": "CONFIDENTIALITY AND NON-DISCLOSURE AGREEMENT"
+                },
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        2593,
+                        2991
+                    ],
+                    "answer": "\"Confidential Information\" shall include, without limitation, any –\n5.1. technical, commercial or financial information;\n5.2. know-how and trade secrets;\n5.3. processes, machinery, designs, drawings, technical specifications and data relating to the Project;\n5.4. any of the above information of third parties, including but not limited to supplier and customer information relating to the Project,"
+                }
+            ]
+        },
+        {
+            "query": "Consider Eskom's Confidentiality and Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        2593,
+                        3404
+                    ],
+                    "answer": "\"Confidential Information\" shall include, without limitation, any –\n5.1. technical, commercial or financial information;\n5.2. know-how and trade secrets;\n5.3. processes, machinery, designs, drawings, technical specifications and data relating to the Project;\n5.4. any of the above information of third parties, including but not limited to supplier and customer information relating to the Project,\nin whatever form and which relates to the Disclosing Party's business practices or promotion of the Disclosing Party's business plans, policies or practices, and which information is either communicated to or otherwise acquired by the Receiving Party from the Disclosing Party during the course of the Parties' discussions with one another, whether or not such information is formally designated as confidential."
+                }
+            ]
+        },
+        {
+            "query": "Consider Eskom's Confidentiality and Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        10266,
+                        10638
+                    ],
+                    "answer": "That portion of the Confidential Information that may be found in analyses, compilations, studies, or\nother documents prepared by the Receiving Party, its agents, employees, oral Confidential Information and any written Confidential Information not so requested and returned will be held by the Receiving Party and kept subject to the terms of this Agreement or destroyed."
+                },
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        12600,
+                        12785
+                    ],
+                    "answer": "Termination shall not, however, affect the rights and obligations contained herein with respect to Confidential Information furnished by one Party to another Party prior to termination."
+                }
+            ]
+        },
+        {
+            "query": "Consider Eskom's Confidentiality and Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        10845,
+                        10982
+                    ],
+                    "answer": "The obligations of the Receiving Party pursuant to the provisions of this Agreement shall not apply to any Confidential Information that:"
+                },
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        11216,
+                        11380
+                    ],
+                    "answer": "11.3. is developed independently of the Disclosing Party by the Receiving Party in circumstances that do not amount to a breach of the provisions of this Agreement;"
+                }
+            ]
+        },
+        {
+            "query": "Consider Eskom's Confidentiality and Non-Disclosure Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        9390,
+                        10266
+                    ],
+                    "answer": "10.2. To the extent that it is not practically able to comply with 10.1, the Receiving Party shall destroy or ensure the destruction of all material and/or data in whatever form relating to the Confidential Information disclosed pursuant to the terms of this Agreement and delete, remove or erase or use best efforts to ensure the deletion, erasure or removal from any computer or database or document retrieval system under its or the Representatives' possession or control, all Confidential Information and all documents or files containing or reflecting any Confidential Information, in a manner that makes the deleted, removed or erased data permanently irrecoverable. The Receiving Party shall furnish the Disclosing Party with a written statement signed by one of its directors or duly authorized senior officers to the effect that all such material has been destroyed. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Eskom's Confidentiality and Non-Disclosure Agreement; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        1294,
+                        1633
+                    ],
+                    "answer": "3.1. Neither this Agreement nor the exchange of information contemplated hereby shall commit either Party to continue discussions or to negotiate, or to be legally bound to any potential business relationship. The Parties shall only be bound to a business relationship by way of further definitive written agreements signed by the Parties."
+                },
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        2593,
+                        3404
+                    ],
+                    "answer": "\"Confidential Information\" shall include, without limitation, any –\n5.1. technical, commercial or financial information;\n5.2. know-how and trade secrets;\n5.3. processes, machinery, designs, drawings, technical specifications and data relating to the Project;\n5.4. any of the above information of third parties, including but not limited to supplier and customer information relating to the Project,\nin whatever form and which relates to the Disclosing Party's business practices or promotion of the Disclosing Party's business plans, policies or practices, and which information is either communicated to or otherwise acquired by the Receiving Party from the Disclosing Party during the course of the Parties' discussions with one another, whether or not such information is formally designated as confidential."
+                }
+            ]
+        },
+        {
+            "query": "Consider Eskom's Confidentiality and Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        4607,
+                        5530
+                    ],
+                    "answer": "6.5. Notwithstanding anything to the contrary contained in this Agreement, the Parties agree that the Confidential Information may be disclosed by the Receiving Party to its respective employees, agents, officers, directors, subsidiaries, associated companies, shareholders and advisers (including but not limited to professional financial advisers, legal advisers and auditors) (\"Representatives\") on a need-to-know basis and for the purposes of the Project, provided that the Receiving Party, prior to making any disclosure of Confidential Information as permitted under this 6.5, procures that the proposed recipient of such Confidential Information is made aware of the terms of this Agreement and the Receiving Party will procure that each such proposed recipient adheres to those terms as if they were a party to this Agreement to prevent the unauthorized disclosure of the Confidential Information to Third Parties. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Eskom's Confidentiality and Non-Disclosure Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        10845,
+                        10982
+                    ],
+                    "answer": "The obligations of the Receiving Party pursuant to the provisions of this Agreement shall not apply to any Confidential Information that:"
+                },
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        11381,
+                        12067
+                    ],
+                    "answer": "11.4. is disclosed by the Receiving Party to satisfy an order of a court of competent jurisdiction or to comply with the provisions of any law or regulation in force from time to time; provided that in these circumstances, the Receiving Party shall advise the Disclosing Party to take whatever steps it deems necessary to protect its interests in this regard and provided further that the Receiving Party will disclose only that portion of the Confidential Information which it is legally required to disclose and the Receiving Party will use its reasonable endeavours to protect the confidentiality of such Confidential Information to the greatest extent possible in the circumstances;"
+                }
+            ]
+        },
+        {
+            "query": "Consider Eskom's Confidentiality and Non-Disclosure Agreement; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        10845,
+                        10982
+                    ],
+                    "answer": "The obligations of the Receiving Party pursuant to the provisions of this Agreement shall not apply to any Confidential Information that:"
+                },
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        12216,
+                        12337
+                    ],
+                    "answer": "11.6. is received from a Third Party in circumstances that do not result in a breach of the provisions of this Agreement."
+                }
+            ]
+        },
+        {
+            "query": "Consider Eskom's Confidentiality and Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        4607,
+                        5530
+                    ],
+                    "answer": "6.5. Notwithstanding anything to the contrary contained in this Agreement, the Parties agree that the Confidential Information may be disclosed by the Receiving Party to its respective employees, agents, officers, directors, subsidiaries, associated companies, shareholders and advisers (including but not limited to professional financial advisers, legal advisers and auditors) (\"Representatives\") on a need-to-know basis and for the purposes of the Project, provided that the Receiving Party, prior to making any disclosure of Confidential Information as permitted under this 6.5, procures that the proposed recipient of such Confidential Information is made aware of the terms of this Agreement and the Receiving Party will procure that each such proposed recipient adheres to those terms as if they were a party to this Agreement to prevent the unauthorized disclosure of the Confidential Information to Third Parties. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Eskom's Confidentiality and Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        4271,
+                        4606
+                    ],
+                    "answer": "6.4. For the avoidance of doubt, notwithstanding anything to the contrary contained in this Agreement, the Parties agree that Eskom shall not be precluded in any manner whatsoever from further using, exploiting or disclosing any outcomes, reports, analysis or data compiled and/or developed by the Counterparty pursuant to the Project."
+                },
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        5967,
+                        6321
+                    ],
+                    "answer": "6.6. Except as otherwise contemplated in this Agreement, the Parties agree in favour of one another not to utilize, exploit or in any other manner whatsoever use the Confidential Information disclosed pursuant to the provisions of this Agreement for any purpose whatsoever other than the Project without the prior written consent of the Disclosing Party."
+                },
+                {
+                    "file_path": "contractnli/Eskom%20Template%20Confidentiality%20and%20Non-disclosure%20Agreement%20Rev%204%20Effective%20August%202017_11.txt",
+                    "span": [
+                        8156,
+                        8334
+                    ],
+                    "answer": "The Receiving Party undertakes not to use the Confidential Information for any purpose other than:\n8.1. the Project; and\n8.2. in accordance with the provisions of this Agreement."
+                }
+            ]
+        },
+        {
+            "query": "Consider Epsteen's Non-Disclosure Agreement; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/epsteen_nda.txt",
+                    "span": [
+                        1951,
+                        2239
+                    ],
+                    "answer": "Buyer agrees that all copies of materials and data provided to Buyer (and any information derivative of such information) shall also be “Confidential Information”; and all Confidential Information shall be returned to Broker in the event that Buyer decides not to pursue the Transaction. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Epsteen's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/epsteen_nda.txt",
+                    "span": [
+                        1434,
+                        1655
+                    ],
+                    "answer": "Buyer understands that Confidential Information includes, without limitation: the fact that Business is for sale; financial details; identity of suppliers and customers; and any information not generally known by public. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Epsteen's Non-Disclosure Agreement; Does the document include a clause that prohibits the Receiving Party from soliciting some of the Disclosing Party's representatives?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/epsteen_nda.txt",
+                    "span": [
+                        3216,
+                        3403
+                    ],
+                    "answer": "Buyer will not circumvent Seller and/or Broker by contacting any person or persons involved with the Business including, without limitation, landlords, employees, suppliers or customers. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Epsteen's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/epsteen_nda.txt",
+                    "span": [
+                        1655,
+                        1951
+                    ],
+                    "answer": "Buyer agrees not to disclose Confidential Information to anyone other than its/his/her advisors and affiliates who both (a) have a need to know the information in connection with the Transaction; and (b) have agreed by signing a copy of this agreement to be bound by the terms of this agreement. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Epsteen's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/epsteen_nda.txt",
+                    "span": [
+                        1655,
+                        1951
+                    ],
+                    "answer": "Buyer agrees not to disclose Confidential Information to anyone other than its/his/her advisors and affiliates who both (a) have a need to know the information in connection with the Transaction; and (b) have agreed by signing a copy of this agreement to be bound by the terms of this agreement. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Epsteen's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/epsteen_nda.txt",
+                    "span": [
+                        2958,
+                        3176
+                    ],
+                    "answer": "Without limiting the other restrictions in this agreement, Buyer agrees to use Confidential Information solely to internally evaluate the Business for the possible Transaction and not for any other purposes whatsoever."
+                }
+            ]
+        },
+        {
+            "query": "Consider Evelozcity's Non-Disclosure Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Evelozcity%20OESA%20NDA.txt",
+                    "span": [
+                        4608,
+                        4997
+                    ],
+                    "answer": "All Confidential Information shall remain the exclusive property of the Disclosing Party and nothing in this Agreement shall be deemed to grant the Recipient any license, right, title, or interest in or to the Confidential Information. The Recipient acquires no intellectual property license or rights under this Agreement except the limited right to review such Confidential Information. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Evelozcity's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Evelozcity%20OESA%20NDA.txt",
+                    "span": [
+                        758,
+                        1029
+                    ],
+                    "answer": "Any non-public information provided by Disclosing Party, including, without limitation, information about the prototype vehicles, component parts the and company itself at the Meeting are deemed Confidential Information (as defined below) for purposes of this Agreement. "
+                },
+                {
+                    "file_path": "contractnli/Evelozcity%20OESA%20NDA.txt",
+                    "span": [
+                        2298,
+                        3000
+                    ],
+                    "answer": "“Confidential Information” means any non-public information disclosed by Disclosing Party to Recipient, either directly or indirectly in writing, orally, visually or by inspection of tangible objects in connection with the Meeting and related discussions or the Permitted Use (including, without limitation, research, product plans, products, services, equipment, customers, markets, software, inventions, discoveries, ideas, processes, designs, drawings, hardware, formulations, specifications, product configuration information, product components, marketing and finance documents, prototypes, samples, data sets, and equipment), whether or not designated as “confidential” at the time of disclosure."
+                }
+            ]
+        },
+        {
+            "query": "Consider Evelozcity's Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Evelozcity%20OESA%20NDA.txt",
+                    "span": [
+                        2298,
+                        3000
+                    ],
+                    "answer": "“Confidential Information” means any non-public information disclosed by Disclosing Party to Recipient, either directly or indirectly in writing, orally, visually or by inspection of tangible objects in connection with the Meeting and related discussions or the Permitted Use (including, without limitation, research, product plans, products, services, equipment, customers, markets, software, inventions, discoveries, ideas, processes, designs, drawings, hardware, formulations, specifications, product configuration information, product components, marketing and finance documents, prototypes, samples, data sets, and equipment), whether or not designated as “confidential” at the time of disclosure."
+                }
+            ]
+        },
+        {
+            "query": "Consider Evelozcity's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Evelozcity%20OESA%20NDA.txt",
+                    "span": [
+                        7309,
+                        7509
+                    ],
+                    "answer": "The confidentiality obligations contained in this Agreement expire and are of no further force or effect five (5) years from last date that Confidential Information was disclosed under this Agreement."
+                }
+            ]
+        },
+        {
+            "query": "Consider Evelozcity's Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Evelozcity%20OESA%20NDA.txt",
+                    "span": [
+                        3017,
+                        3186
+                    ],
+                    "answer": "The obligations of the Recipient specified in Section 2 above shall not apply with respect to Confidential Information to the extent that such Confidential Information: "
+                },
+                {
+                    "file_path": "contractnli/Evelozcity%20OESA%20NDA.txt",
+                    "span": [
+                        3636,
+                        3808
+                    ],
+                    "answer": "(d) is independently developed by or for the Recipient by persons who have had no access to or been informed of the existence or substance of the Confidential Information. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Evelozcity's Non-Disclosure Agreement; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Evelozcity%20OESA%20NDA.txt",
+                    "span": [
+                        2298,
+                        3000
+                    ],
+                    "answer": "“Confidential Information” means any non-public information disclosed by Disclosing Party to Recipient, either directly or indirectly in writing, orally, visually or by inspection of tangible objects in connection with the Meeting and related discussions or the Permitted Use (including, without limitation, research, product plans, products, services, equipment, customers, markets, software, inventions, discoveries, ideas, processes, designs, drawings, hardware, formulations, specifications, product configuration information, product components, marketing and finance documents, prototypes, samples, data sets, and equipment), whether or not designated as “confidential” at the time of disclosure."
+                }
+            ]
+        },
+        {
+            "query": "Consider Evelozcity's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Evelozcity%20OESA%20NDA.txt",
+                    "span": [
+                        1291,
+                        1716
+                    ],
+                    "answer": "The Recipient shall not disclose any Confidential Information to any third parties other than to its affiliates, and its and their respective officers, directors, employees, consultants or professional advisers (collectively, “Representatives”) who have a need to know the Confidential Information for use in evaluating or pursuing a potential business relationship with Disclosing Party or its affiliates (“Permitted Use.”) "
+                }
+            ]
+        },
+        {
+            "query": "Consider Evelozcity's Non-Disclosure Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Evelozcity%20OESA%20NDA.txt",
+                    "span": [
+                        3808,
+                        4341
+                    ],
+                    "answer": "It shall not be a breach of this Agreement for the Recipient to disclose Confidential Information if required to do so under law or in a judicial, arbitral, or governmental proceeding or investigation, provided, (i) the Disclosing Party has been given reasonable prior notice to allow it the option to take actions to protect its interest and Recipient shall cooperate with any reasonable requests of the Disclosing Party in connection thereof, including any protective orders or other safeguards sought by the Disclosing Party; and "
+                }
+            ]
+        },
+        {
+            "query": "Consider Evelozcity's Non-Disclosure Agreement; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Evelozcity%20OESA%20NDA.txt",
+                    "span": [
+                        3017,
+                        3186
+                    ],
+                    "answer": "The obligations of the Recipient specified in Section 2 above shall not apply with respect to Confidential Information to the extent that such Confidential Information: "
+                },
+                {
+                    "file_path": "contractnli/Evelozcity%20OESA%20NDA.txt",
+                    "span": [
+                        3410,
+                        3636
+                    ],
+                    "answer": "(c) is or becomes known to the Recipient through disclosure by an unaffiliated third party (except where such third party is known by the Recipient to be disclosing such information in breach of obligations of confidence); or "
+                }
+            ]
+        },
+        {
+            "query": "Consider Evelozcity's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Evelozcity%20OESA%20NDA.txt",
+                    "span": [
+                        1291,
+                        1716
+                    ],
+                    "answer": "The Recipient shall not disclose any Confidential Information to any third parties other than to its affiliates, and its and their respective officers, directors, employees, consultants or professional advisers (collectively, “Representatives”) who have a need to know the Confidential Information for use in evaluating or pursuing a potential business relationship with Disclosing Party or its affiliates (“Permitted Use.”) "
+                }
+            ]
+        },
+        {
+            "query": "Consider Evelozcity's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Evelozcity%20OESA%20NDA.txt",
+                    "span": [
+                        1716,
+                        1770
+                    ],
+                    "answer": "Recipient will, and will cause its Representatives to "
+                },
+                {
+                    "file_path": "contractnli/Evelozcity%20OESA%20NDA.txt",
+                    "span": [
+                        2078,
+                        2185
+                    ],
+                    "answer": "(ii) use the Confidential Information of the Disclosing Party for no purpose other than the Permitted Use. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Excelerate's Non-Disclosure Agreement; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/ExcelerateStandardNDAFormat.txt",
+                    "span": [
+                        6927,
+                        7213
+                    ],
+                    "answer": "At the conclusion of this agreement/contract for which data is exchanged, proprietary data shall be returned to the provider or destroyed with a certification to that effect provided to the other party, except the one (1) copy retained by legal counsel as provided in paragraph 8 above."
+                }
+            ]
+        },
+        {
+            "query": "Consider Excelerate's Non-Disclosure Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/ExcelerateStandardNDAFormat.txt",
+                    "span": [
+                        5853,
+                        6318
+                    ],
+                    "answer": "9. No title, license, or any other right of ownership or use shall be granted (expressly, by implication, or by estoppels) to the receiving party under any patent, trademark, copyright, or trade secret owned or controlled by the disclosing party by the disclosure of Proprietary Information. This Agreement shall not be construed to grant to either Party any patent license, use license, know-how license, or any other rights except as specifically provided herein."
+                }
+            ]
+        },
+        {
+            "query": "Consider Excelerate's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/ExcelerateStandardNDAFormat.txt",
+                    "span": [
+                        1445,
+                        1920
+                    ],
+                    "answer": "Each Party's Proprietary Information may include, but is not limited to, patents, copyrights, design methods, ideas, concepts, data, formulas, manufacturing techniques, know-how, business plans, customer lists, solicitation response strategies, technical solutions to client requirements, system architectures, proposal preparation techniques and pricing policies, software, methodologies, technologies, processes, financial information, and sales and marketing information. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Excelerate's Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/ExcelerateStandardNDAFormat.txt",
+                    "span": [
+                        3334,
+                        3573
+                    ],
+                    "answer": "When a writing contains Proprietary Information the writing will, prior to disclosure to the receiving Party, be marked by the disclosing Party with a suitable legend (such as \"Proprietary Information\") to indicate its Proprietary status. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Excelerate's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/ExcelerateStandardNDAFormat.txt",
+                    "span": [
+                        6407,
+                        6927
+                    ],
+                    "answer": "a. This Agreement shall terminate at the end of the period of years as provided for in paragraph 4 above, or upon the delivery of written notice of termination by a Party to the other Party; however, the obligations of a receiving Party pursuant to Paragraph 4 shall remain in effect for the term specified therein.\nb. Notwithstanding the termination of this agreement, the supplied data must be maintained and protected in accordance with its provisions for three (3) years following the termination of this agreement. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Excelerate's Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/ExcelerateStandardNDAFormat.txt",
+                    "span": [
+                        3823,
+                        3900
+                    ],
+                    "answer": "6. The conditions of Paragraph 4 hereof shall not apply to information which:"
+                },
+                {
+                    "file_path": "contractnli/ExcelerateStandardNDAFormat.txt",
+                    "span": [
+                        4231,
+                        4238
+                    ],
+                    "answer": "b. Was "
+                },
+                {
+                    "file_path": "contractnli/ExcelerateStandardNDAFormat.txt",
+                    "span": [
+                        4559,
+                        4671
+                    ],
+                    "answer": "(iii) is developed by the receiving Party independent of such information received from the disclosing Party; or"
+                }
+            ]
+        },
+        {
+            "query": "Consider Excelerate's Non-Disclosure Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/ExcelerateStandardNDAFormat.txt",
+                    "span": [
+                        5572,
+                        5852
+                    ],
+                    "answer": "8. Upon written request of a Party who has disclosed Proprietary Information to a receiving Party, the receiving Party shall promptly return all Proprietary Information except that one copy may be retained by legal counsel of the receiving Party as evidence of what was disclosed."
+                },
+                {
+                    "file_path": "contractnli/ExcelerateStandardNDAFormat.txt",
+                    "span": [
+                        6927,
+                        7213
+                    ],
+                    "answer": "At the conclusion of this agreement/contract for which data is exchanged, proprietary data shall be returned to the provider or destroyed with a certification to that effect provided to the other party, except the one (1) copy retained by legal counsel as provided in paragraph 8 above."
+                }
+            ]
+        },
+        {
+            "query": "Consider Excelerate's Non-Disclosure Agreement; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/ExcelerateStandardNDAFormat.txt",
+                    "span": [
+                        2973,
+                        3334
+                    ],
+                    "answer": "5. Disclosure of Proprietary Information to a receiving Party may be either oral or in writing. If an oral disclosure occurs, it will be confirmed within fifteen (15) days following initial disclosure by a written communication stating at least the date and circumstances under which the disclosure occurred and the general nature of the information disclosed. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Excelerate's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/ExcelerateStandardNDAFormat.txt",
+                    "span": [
+                        4770,
+                        5571
+                    ],
+                    "answer": "7. Notwithstanding anything to the contrary in Paragraph 4 hereof, Proprietary Information may be disclosed by a receiving Party to those of its employees and consultants who require knowledge thereof in connection with their duties in conducting the aforesaid purpose of this Agreement and who are obligated by written agreement to hold such Proprietary Information in confidence and restrict its use consistent with the receiving Party's obligations under this Agreement; and Proprietary Information may be disclosed to a legislative, judicial, or regulatory body requiring its disclosure, provided that, prior to such disclosure, the receiving Party has notified the disclosing Party of the requirement with an opportunity for the disclosing Party to object or seek an appropriate protective order."
+                }
+            ]
+        },
+        {
+            "query": "Consider Excelerate's Non-Disclosure Agreement; Does the document permit the Receiving Party to create a copy of some Confidential Information under certain circumstances?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/ExcelerateStandardNDAFormat.txt",
+                    "span": [
+                        5572,
+                        5852
+                    ],
+                    "answer": "8. Upon written request of a Party who has disclosed Proprietary Information to a receiving Party, the receiving Party shall promptly return all Proprietary Information except that one copy may be retained by legal counsel of the receiving Party as evidence of what was disclosed."
+                },
+                {
+                    "file_path": "contractnli/ExcelerateStandardNDAFormat.txt",
+                    "span": [
+                        6723,
+                        7213
+                    ],
+                    "answer": "b. Notwithstanding the termination of this agreement, the supplied data must be maintained and protected in accordance with its provisions for three (3) years following the termination of this agreement. At the conclusion of this agreement/contract for which data is exchanged, proprietary data shall be returned to the provider or destroyed with a certification to that effect provided to the other party, except the one (1) copy retained by legal counsel as provided in paragraph 8 above."
+                }
+            ]
+        },
+        {
+            "query": "Consider Excelerate's Non-Disclosure Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/ExcelerateStandardNDAFormat.txt",
+                    "span": [
+                        4770,
+                        5571
+                    ],
+                    "answer": "7. Notwithstanding anything to the contrary in Paragraph 4 hereof, Proprietary Information may be disclosed by a receiving Party to those of its employees and consultants who require knowledge thereof in connection with their duties in conducting the aforesaid purpose of this Agreement and who are obligated by written agreement to hold such Proprietary Information in confidence and restrict its use consistent with the receiving Party's obligations under this Agreement; and Proprietary Information may be disclosed to a legislative, judicial, or regulatory body requiring its disclosure, provided that, prior to such disclosure, the receiving Party has notified the disclosing Party of the requirement with an opportunity for the disclosing Party to object or seek an appropriate protective order."
+                }
+            ]
+        },
+        {
+            "query": "Consider Excelerate's Non-Disclosure Agreement; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/ExcelerateStandardNDAFormat.txt",
+                    "span": [
+                        3823,
+                        3900
+                    ],
+                    "answer": "6. The conditions of Paragraph 4 hereof shall not apply to information which:"
+                },
+                {
+                    "file_path": "contractnli/ExcelerateStandardNDAFormat.txt",
+                    "span": [
+                        4231,
+                        4238
+                    ],
+                    "answer": "b. Was "
+                },
+                {
+                    "file_path": "contractnli/ExcelerateStandardNDAFormat.txt",
+                    "span": [
+                        4330,
+                        4559
+                    ],
+                    "answer": "(ii) is later received by the receiving Party from a third party, unless the receiving Party knows or has reason to know of an obligation of secrecy of the third party to the disclosing Party with respect to such information; or "
+                }
+            ]
+        },
+        {
+            "query": "Consider Excelerate's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/ExcelerateStandardNDAFormat.txt",
+                    "span": [
+                        4770,
+                        5571
+                    ],
+                    "answer": "7. Notwithstanding anything to the contrary in Paragraph 4 hereof, Proprietary Information may be disclosed by a receiving Party to those of its employees and consultants who require knowledge thereof in connection with their duties in conducting the aforesaid purpose of this Agreement and who are obligated by written agreement to hold such Proprietary Information in confidence and restrict its use consistent with the receiving Party's obligations under this Agreement; and Proprietary Information may be disclosed to a legislative, judicial, or regulatory body requiring its disclosure, provided that, prior to such disclosure, the receiving Party has notified the disclosing Party of the requirement with an opportunity for the disclosing Party to object or seek an appropriate protective order."
+                }
+            ]
+        },
+        {
+            "query": "Consider Excelerate's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/ExcelerateStandardNDAFormat.txt",
+                    "span": [
+                        2601,
+                        2972
+                    ],
+                    "answer": "4. Except as provided in Paragraphs 6 and 7 hereof, Proprietary Information disclosed to a receiving Party shall for a period of three (3) years from the effective date of this Agreement be held in confidence by the receiving Party and not be disclosed to others or used except for the purposes set forth above, without the prior written approval of the disclosing Party."
+                },
+                {
+                    "file_path": "contractnli/ExcelerateStandardNDAFormat.txt",
+                    "span": [
+                        10254,
+                        10356
+                    ],
+                    "answer": "This Agreement may not be modified in any manner except by written amendment executed by both Parties."
+                }
+            ]
+        },
+        {
+            "query": "Consider FNHA's Non-Disclosure Agreement; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/FNHA-2019RFP-02-NDA-form.txt",
+                    "span": [
+                        2248,
+                        2435
+                    ],
+                    "answer": "Company further agrees to return Confidential Information to FNHA, if FNHA so directs, or to destroy Confidential Information once the RFP process completes or earlier of FNHA so directs."
+                }
+            ]
+        },
+        {
+            "query": "Consider FNHA's Non-Disclosure Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/FNHA-2019RFP-02-NDA-form.txt",
+                    "span": [
+                        2072,
+                        2248
+                    ],
+                    "answer": "Company acknowledges and agrees that nothing contained in this Agreement will be construed as granting it any rights, by license or otherwise, to any Confidential Information. "
+                },
+                {
+                    "file_path": "contractnli/FNHA-2019RFP-02-NDA-form.txt",
+                    "span": [
+                        3448,
+                        3715
+                    ],
+                    "answer": "Company acknowledges that all of the Confidential Information is owned solely by FNHA and that the unauthorized disclosure or use of such Confidential Information would cause irreparable harm and significant injury, the degree of which may be difficult to ascertain. "
+                }
+            ]
+        },
+        {
+            "query": "Consider FNHA's Non-Disclosure Agreement; Does the document include a clause that prevents the Receiving Party from disclosing the fact that the Agreement was agreed upon or negotiated?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/FNHA-2019RFP-02-NDA-form.txt",
+                    "span": [
+                        1851,
+                        2071
+                    ],
+                    "answer": "Company may not at any time directly or indirectly communicate with the media in relation to the Confidential Information or any information with respect to the RFP without first obtaining the written permission of FNHA."
+                }
+            ]
+        },
+        {
+            "query": "Consider FNHA's Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/FNHA-2019RFP-02-NDA-form.txt",
+                    "span": [
+                        933,
+                        1448
+                    ],
+                    "answer": "1. Definition. \"Confidential Information\" means any information identified as confidential by the FNHA that is part of the FNHA’s request for proposal number 2019RFP-02, Architectural & Design Team Consultants for Metro Vancouver Office Project (“RFP”) whether in oral, written electronic or any other form or medium whatsoever, including but not limited to Appendix B of the RFP, questions answered or information disclosed by FNHA related to confidential aspects of the RFP or discussions held related to the RFP."
+                }
+            ]
+        },
+        {
+            "query": "Consider FNHA's Non-Disclosure Agreement; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/FNHA-2019RFP-02-NDA-form.txt",
+                    "span": [
+                        933,
+                        1448
+                    ],
+                    "answer": "1. Definition. \"Confidential Information\" means any information identified as confidential by the FNHA that is part of the FNHA’s request for proposal number 2019RFP-02, Architectural & Design Team Consultants for Metro Vancouver Office Project (“RFP”) whether in oral, written electronic or any other form or medium whatsoever, including but not limited to Appendix B of the RFP, questions answered or information disclosed by FNHA related to confidential aspects of the RFP or discussions held related to the RFP."
+                }
+            ]
+        },
+        {
+            "query": "Consider FNHA's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/FNHA-2019RFP-02-NDA-form.txt",
+                    "span": [
+                        1449,
+                        1596
+                    ],
+                    "answer": "2. Non-Disclosure. Company will not make copies of, disclose, discuss, publish or disseminate Confidential Information any third person or entity. "
+                }
+            ]
+        },
+        {
+            "query": "Consider FNHA's Non-Disclosure Agreement; Does the document permit the Receiving Party to create a copy of some Confidential Information under certain circumstances?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/FNHA-2019RFP-02-NDA-form.txt",
+                    "span": [
+                        1468,
+                        1596
+                    ],
+                    "answer": "Company will not make copies of, disclose, discuss, publish or disseminate Confidential Information any third person or entity. "
+                }
+            ]
+        },
+        {
+            "query": "Consider FNHA's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/FNHA-2019RFP-02-NDA-form.txt",
+                    "span": [
+                        2436,
+                        2629
+                    ],
+                    "answer": "This Agreement does not preclude discussions of Confidential Information between the undersigned and FNHA staff or with any other persons identified by FNHA as having undertaken this Agreement."
+                }
+            ]
+        },
+        {
+            "query": "Consider FNHA's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/FNHA-2019RFP-02-NDA-form.txt",
+                    "span": [
+                        1596,
+                        1696
+                    ],
+                    "answer": "Company will not use the Confidential Information for any purpose other than responding to the RFP. "
+                }
+            ]
+        },
+        {
+            "query": "Consider APIC's Confidentiality Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Focus-Group-APIC-Seattle-Confidentiality-Agreement-031115.txt",
+                    "span": [
+                        1493,
+                        1797
+                    ],
+                    "answer": "e) All notes, reference materials, memoranda, documentation and records in any way incorporating or reflecting any of the Confidential Information shall belong exclusively to Owner and the undersigned agrees to turn over all copies of such materials in the undersigned’s possession to Owner upon request."
+                }
+            ]
+        },
+        {
+            "query": "Consider APIC's Confidentiality Agreement; Does the document state that Confidential Information shall only include technical information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Focus-Group-APIC-Seattle-Confidentiality-Agreement-031115.txt",
+                    "span": [
+                        577,
+                        835
+                    ],
+                    "answer": "a) To hold in confidence any and all technical or business information about the company’s product which is disclosed, or made available to you directly or indirectly, or is information you otherwise receive incident to your participation in this discussion;"
+                }
+            ]
+        },
+        {
+            "query": "Consider APIC's Confidentiality Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Focus-Group-APIC-Seattle-Confidentiality-Agreement-031115.txt",
+                    "span": [
+                        1286,
+                        1492
+                    ],
+                    "answer": "d) That you, shall at all times hold in trust, keep confidential and not disclose to any third party or make any use of the Confidential Information beyond those activities that are part of the Focus Group."
+                },
+                {
+                    "file_path": "contractnli/Focus-Group-APIC-Seattle-Confidentiality-Agreement-031115.txt",
+                    "span": [
+                        2004,
+                        2179
+                    ],
+                    "answer": "I shall at all times hold in trust, keep confidential and not disclose to any third party or make any use of the identity or PII of any Respondent involved in the Focus Group."
+                }
+            ]
+        },
+        {
+            "query": "Consider APIC's Confidentiality Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Focus-Group-APIC-Seattle-Confidentiality-Agreement-031115.txt",
+                    "span": [
+                        1286,
+                        1492
+                    ],
+                    "answer": "d) That you, shall at all times hold in trust, keep confidential and not disclose to any third party or make any use of the Confidential Information beyond those activities that are part of the Focus Group."
+                }
+            ]
+        },
+        {
+            "query": "Consider the Non-Disclosure Agreement between Hochschule Furtwangen University and Thesis Participants; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Geheimhaltungsvereinbarung_Abschlussarbeiten_HFU_englisch.txt",
+                    "span": [
+                        3838,
+                        4025
+                    ],
+                    "answer": "This agreement does not confer any rights, in particular property, licencing or replication rights, rights of use or any other commercial protected rights or options between the parties. "
+                }
+            ]
+        },
+        {
+            "query": "Consider the Non-Disclosure Agreement between Hochschule Furtwangen University and Thesis Participants; Does the document state that Confidential Information shall only include technical information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Geheimhaltungsvereinbarung_Abschlussarbeiten_HFU_englisch.txt",
+                    "span": [
+                        1192,
+                        1278
+                    ],
+                    "answer": "(1) Confidential information for purposes of this agreement is any such information as"
+                },
+                {
+                    "file_path": "contractnli/Geheimhaltungsvereinbarung_Abschlussarbeiten_HFU_englisch.txt",
+                    "span": [
+                        1365,
+                        1452
+                    ],
+                    "answer": "2. is defined by § 3 b LwVfG BW as one of the company and business secrets protected or"
+                }
+            ]
+        },
+        {
+            "query": "Consider the Non-Disclosure Agreement between Hochschule Furtwangen University and Thesis Participants; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Geheimhaltungsvereinbarung_Abschlussarbeiten_HFU_englisch.txt",
+                    "span": [
+                        1632,
+                        1762
+                    ],
+                    "answer": "(2) The duty of confidentiality does not apply when and in as far as the contracting party in receipt of information can show that"
+                },
+                {
+                    "file_path": "contractnli/Geheimhaltungsvereinbarung_Abschlussarbeiten_HFU_englisch.txt",
+                    "span": [
+                        1963,
+                        2120
+                    ],
+                    "answer": "3. the information in question has been developed by the receiving party’s staff independently without such information having been made available to them or"
+                }
+            ]
+        },
+        {
+            "query": "Consider the Non-Disclosure Agreement between Hochschule Furtwangen University and Thesis Participants; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Geheimhaltungsvereinbarung_Abschlussarbeiten_HFU_englisch.txt",
+                    "span": [
+                        2776,
+                        2965
+                    ],
+                    "answer": "In particular, the university is permitted to reveal confidential information to third parties in as far as this is necessary to allow for the proper performance of the assessment process. "
+                }
+            ]
+        },
+        {
+            "query": "Consider the Non-Disclosure Agreement between Hochschule Furtwangen University and Thesis Participants; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Geheimhaltungsvereinbarung_Abschlussarbeiten_HFU_englisch.txt",
+                    "span": [
+                        1632,
+                        1762
+                    ],
+                    "answer": "(2) The duty of confidentiality does not apply when and in as far as the contracting party in receipt of information can show that"
+                },
+                {
+                    "file_path": "contractnli/Geheimhaltungsvereinbarung_Abschlussarbeiten_HFU_englisch.txt",
+                    "span": [
+                        1819,
+                        1962
+                    ],
+                    "answer": "2. the information in question has come to the receiving party’s attention in another way which did not infringe any duty of confidentiality or"
+                }
+            ]
+        },
+        {
+            "query": "Consider GreenStorm's Non-Disclosure Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/GreenStorm%20NDCSC.txt",
+                    "span": [
+                        6200,
+                        6348
+                    ],
+                    "answer": "No right of license, either express or implied, under any patent, copyright, trade secret or other intellectual property right is granted hereunder."
+                }
+            ]
+        },
+        {
+            "query": "Consider GreenStorm's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/GreenStorm%20NDCSC.txt",
+                    "span": [
+                        1302,
+                        1567
+                    ],
+                    "answer": "In connection with these discussions, it may be necessary and/or desirable for the Parties to provide the other with, or allow access to, proprietary, technical, or business data, and/or other confidential information (collectively the \"Confidential Information\"). "
+                }
+            ]
+        },
+        {
+            "query": "Consider GreenStorm's Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/GreenStorm%20NDCSC.txt",
+                    "span": [
+                        961,
+                        1659
+                    ],
+                    "answer": "This Agreement combines a non-disclosure, a non-circumvention, non-solicitation and non-competition agreement. The Parties intend to engage in substantive discussions and sharing of confidential information regarding certain new and useful business opportunities, business contacts, trade secrets, business entity formation and structuring.\nIn connection with these discussions, it may be necessary and/or desirable for the Parties to provide the other with, or allow access to, proprietary, technical, or business data, and/or other confidential information (collectively the \"Confidential Information\"). Therefore, the Parties hereby agree that they are bound by an obligation of confidentiality."
+                },
+                {
+                    "file_path": "contractnli/GreenStorm%20NDCSC.txt",
+                    "span": [
+                        2381,
+                        2524
+                    ],
+                    "answer": "Confidential Information shall be defined as any information specifically identified as “Confidential” prior to disclosure to the other Party. "
+                }
+            ]
+        },
+        {
+            "query": "Consider GreenStorm's Non-Disclosure Agreement; Does the document include a clause that prohibits the Receiving Party from soliciting some of the Disclosing Party's representatives?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/GreenStorm%20NDCSC.txt",
+                    "span": [
+                        8505,
+                        8706
+                    ],
+                    "answer": "The Parties hereby confirm that neither they nor anyone on their behalf or anyone else has solicited in any way, and no document received or that will be received shall be deemed to be a solicitation. "
+                }
+            ]
+        },
+        {
+            "query": "Consider GreenStorm's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/GreenStorm%20NDCSC.txt",
+                    "span": [
+                        3114,
+                        3240
+                    ],
+                    "answer": "The receiving Party shall not disclose or communicate Confidential Information to any third party, except as herein provided. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Grindrod SA's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Grindrod%20SA%20Confidentiality%20and%20Non-Disclosure%20Undertaking.txt",
+                    "span": [
+                        757,
+                        1492
+                    ],
+                    "answer": "1.1 “Confidential Information” means; all technical, commercial, procurement requirements, purchasing, manufacturing, customer lists, investors, employees, business and contractual relationships, business forecasts, sales and merchandising, and marketing plans business or personnel information disclosed or otherwise made available in any format and/or physical manner by Grindrod SA or becoming available, before, during and/or after the execution of an interaction, duty or obligation including all information that makes itself known to the Vendor or comes into being as a result of the rendering, production and/or delivery of an agreement/understanding/request for quotation/contract or Purchase Order, or any other interaction. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Grindrod SA's Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Grindrod%20SA%20Confidentiality%20and%20Non-Disclosure%20Undertaking.txt",
+                    "span": [
+                        1492,
+                        1942
+                    ],
+                    "answer": "Confidential Information shall also include any other information that is marked as \"Confidential\" or should reasonably be considered confidential Confidential Information excludes information which is already in the possession, or under the control of the Vendor otherwise than as a result of having been disclosed by Grindrod SA to the Vendor or as a result of the preparation and execution of a proposal or any other interaction with Grindrod SA. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Grindrod SA's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Grindrod%20SA%20Confidentiality%20and%20Non-Disclosure%20Undertaking.txt",
+                    "span": [
+                        3725,
+                        3823
+                    ],
+                    "answer": "3. For the purposes of this Confidentiality and Non-Disclosure Undertaking, The Vendor undertakes;"
+                },
+                {
+                    "file_path": "contractnli/Grindrod%20SA%20Confidentiality%20and%20Non-Disclosure%20Undertaking.txt",
+                    "span": [
+                        4718,
+                        4985
+                    ],
+                    "answer": "3.6 that the provisions of this Confidentiality and Non-Disclosure Undertaking shall survive the termination or expiration of any Agreement / understanding / Request for Quotation / Contract / Purchase Order or any interaction, with Grindrod SA, of whatsoever nature."
+                }
+            ]
+        },
+        {
+            "query": "Consider Grindrod SA's Non-Disclosure Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Grindrod%20SA%20Confidentiality%20and%20Non-Disclosure%20Undertaking.txt",
+                    "span": [
+                        1942,
+                        2219
+                    ],
+                    "answer": "Confidential Information also excludes information in the public domain for a reason, other than a breach of this Confidentiality and Non-Disclosure Undertaking, with any party, or independently developed by the Vendor without reference to information provided by, Grindrod SA;"
+                }
+            ]
+        },
+        {
+            "query": "Consider Grindrod SA's Non-Disclosure Agreement; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Grindrod%20SA%20Confidentiality%20and%20Non-Disclosure%20Undertaking.txt",
+                    "span": [
+                        757,
+                        1492
+                    ],
+                    "answer": "1.1 “Confidential Information” means; all technical, commercial, procurement requirements, purchasing, manufacturing, customer lists, investors, employees, business and contractual relationships, business forecasts, sales and merchandising, and marketing plans business or personnel information disclosed or otherwise made available in any format and/or physical manner by Grindrod SA or becoming available, before, during and/or after the execution of an interaction, duty or obligation including all information that makes itself known to the Vendor or comes into being as a result of the rendering, production and/or delivery of an agreement/understanding/request for quotation/contract or Purchase Order, or any other interaction. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Grindrod SA's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Grindrod%20SA%20Confidentiality%20and%20Non-Disclosure%20Undertaking.txt",
+                    "span": [
+                        3725,
+                        3823
+                    ],
+                    "answer": "3. For the purposes of this Confidentiality and Non-Disclosure Undertaking, The Vendor undertakes;"
+                },
+                {
+                    "file_path": "contractnli/Grindrod%20SA%20Confidentiality%20and%20Non-Disclosure%20Undertaking.txt",
+                    "span": [
+                        4215,
+                        4337
+                    ],
+                    "answer": "3.3. not to disclose such Confidential Information to any person without the prior written authorization from Grindrod SA,"
+                }
+            ]
+        },
+        {
+            "query": "Consider Grindrod SA's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Grindrod%20SA%20Confidentiality%20and%20Non-Disclosure%20Undertaking.txt",
+                    "span": [
+                        3725,
+                        3823
+                    ],
+                    "answer": "3. For the purposes of this Confidentiality and Non-Disclosure Undertaking, The Vendor undertakes;"
+                },
+                {
+                    "file_path": "contractnli/Grindrod%20SA%20Confidentiality%20and%20Non-Disclosure%20Undertaking.txt",
+                    "span": [
+                        4215,
+                        4337
+                    ],
+                    "answer": "3.3. not to disclose such Confidential Information to any person without the prior written authorization from Grindrod SA,"
+                }
+            ]
+        },
+        {
+            "query": "Consider Grindrod SA's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/Grindrod%20SA%20Confidentiality%20and%20Non-Disclosure%20Undertaking.txt",
+                    "span": [
+                        3725,
+                        3823
+                    ],
+                    "answer": "3. For the purposes of this Confidentiality and Non-Disclosure Undertaking, The Vendor undertakes;"
+                },
+                {
+                    "file_path": "contractnli/Grindrod%20SA%20Confidentiality%20and%20Non-Disclosure%20Undertaking.txt",
+                    "span": [
+                        3825,
+                        4093
+                    ],
+                    "answer": "3.1. to use such Confidential Information only for purposes of performing as required in terms of its obligations / promises or duties arising out of the Agreement / understanding /Request for Quotation / Contract or Purchase Order and for no other purpose whatsoever,"
+                }
+            ]
+        },
+        {
+            "query": "Consider Euler Hermes's Non-Disclosure Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/eulerhermes-nda.txt",
+                    "span": [
+                        3523,
+                        3708
+                    ],
+                    "answer": "4. The Confidential Information shall at all times remain the property of Company, and Euler Hermes has no rights to the Confidential Information except as specified in this Agreement. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Euler Hermes's Non-Disclosure Agreement; Does the document state that Confidential Information shall only include technical information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/eulerhermes-nda.txt",
+                    "span": [
+                        281,
+                        655
+                    ],
+                    "answer": "WHEREAS, the Company has expressed a willingness to furnish to Euler Hermes and its Affiliates certain confidential financial statements and other financial information relating to the affairs of the Company, whether submitted in oral, written, magnetic, electronic, or other form and regardless of whether expressly identified as confidential (“Confidential Information”). "
+                }
+            ]
+        },
+        {
+            "query": "Consider Euler Hermes's Non-Disclosure Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/eulerhermes-nda.txt",
+                    "span": [
+                        281,
+                        655
+                    ],
+                    "answer": "WHEREAS, the Company has expressed a willingness to furnish to Euler Hermes and its Affiliates certain confidential financial statements and other financial information relating to the affairs of the Company, whether submitted in oral, written, magnetic, electronic, or other form and regardless of whether expressly identified as confidential (“Confidential Information”). "
+                }
+            ]
+        },
+        {
+            "query": "Consider Euler Hermes's Non-Disclosure Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/eulerhermes-nda.txt",
+                    "span": [
+                        3708,
+                        4145
+                    ],
+                    "answer": "Upon the Company’s written request, Euler Hermes shall promptly return to the Company or destroy the Confidential Information in its possession but may retain copies of any and all notes, analyses, references, or other material prepared by Euler Hermes that incorporates any of the Confidential Information, which shall remain subject to the confidentiality obligations of this Agreement, nothwithstanding Paragraph 10 of this Agreement."
+                }
+            ]
+        },
+        {
+            "query": "Consider Euler Hermes's Non-Disclosure Agreement; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/eulerhermes-nda.txt",
+                    "span": [
+                        281,
+                        655
+                    ],
+                    "answer": "WHEREAS, the Company has expressed a willingness to furnish to Euler Hermes and its Affiliates certain confidential financial statements and other financial information relating to the affairs of the Company, whether submitted in oral, written, magnetic, electronic, or other form and regardless of whether expressly identified as confidential (“Confidential Information”). "
+                }
+            ]
+        },
+        {
+            "query": "Consider Euler Hermes's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/eulerhermes-nda.txt",
+                    "span": [
+                        1148,
+                        1445
+                    ],
+                    "answer": "WHEREAS “Affiliates” shall mean any person or entity directly or indirectly controlling, controlled by, or under common control with Euler Hermes, where control means the legal power to direct or cause the direction of the general management of the company, partnership, or other legal entity; and"
+                },
+                {
+                    "file_path": "contractnli/eulerhermes-nda.txt",
+                    "span": [
+                        1794,
+                        2026
+                    ],
+                    "answer": "1. Euler Hermes shall keep the Confidential Information confidential and may disclose the Confidential Information only to its Affiliates, employees, contractors, or consultants for the Purpose described above and no other purpose. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Euler Hermes's Non-Disclosure Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/eulerhermes-nda.txt",
+                    "span": [
+                        2633,
+                        2833
+                    ],
+                    "answer": "3. Notwithstanding markings or representations regarding confidentiality, it is specifically agreed that Euler Hermes shall have no obligation with respect to any part of the Confidential Information:"
+                },
+                {
+                    "file_path": "contractnli/eulerhermes-nda.txt",
+                    "span": [
+                        3159,
+                        3522
+                    ],
+                    "answer": "e. when Euler Hermes is required by law, order of a Court of competent jurisdiction, or other legal compulsion, to disclose the information, provided that Euler Hermes promptly notifies Company of such requirement, to the extent legally permissible, and Euler Hermes discloses only such part of the Confidential Information as is legally required to be disclosed."
+                }
+            ]
+        },
+        {
+            "query": "Consider Euler Hermes's Non-Disclosure Agreement; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/eulerhermes-nda.txt",
+                    "span": [
+                        2633,
+                        2833
+                    ],
+                    "answer": "3. Notwithstanding markings or representations regarding confidentiality, it is specifically agreed that Euler Hermes shall have no obligation with respect to any part of the Confidential Information:"
+                },
+                {
+                    "file_path": "contractnli/eulerhermes-nda.txt",
+                    "span": [
+                        2891,
+                        3042
+                    ],
+                    "answer": "b. received by Euler Hermes at any time from any source other than the Company that has no obligation regarding the confidentiality of the information;"
+                }
+            ]
+        },
+        {
+            "query": "Consider Euler Hermes's Non-Disclosure Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/eulerhermes-nda.txt",
+                    "span": [
+                        1794,
+                        2026
+                    ],
+                    "answer": "1. Euler Hermes shall keep the Confidential Information confidential and may disclose the Confidential Information only to its Affiliates, employees, contractors, or consultants for the Purpose described above and no other purpose. "
+                }
+            ]
+        },
+        {
+            "query": "Consider Euler Hermes's Non-Disclosure Agreement; Does the document restrict the use of Confidential Information to the purposes stated in the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/eulerhermes-nda.txt",
+                    "span": [
+                        655,
+                        740
+                    ],
+                    "answer": "The Confidential Information may be used only for the following purposes (“Purpose”):"
+                }
+            ]
+        },
+        {
+            "query": "Consider HNBA's Confidentiality Agreement; Does the document specify whether the Receiving Party is required to destroy or return Confidential Information upon the termination of the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/HNBA-2017-18-Confidentiality-Agreement.txt",
+                    "span": [
+                        7152,
+                        7325
+                    ],
+                    "answer": "1. Once the purpose of the disclosure is achieved, the HNBA will instruct the Board Member to destroy all Confidential Information supplied to the Board Member by the HNBA. "
+                }
+            ]
+        },
+        {
+            "query": "Consider HNBA's Confidentiality Agreement; Does the document indicate that the Agreement does not grant the Receiving Party any rights to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/HNBA-2017-18-Confidentiality-Agreement.txt",
+                    "span": [
+                        4270,
+                        4549
+                    ],
+                    "answer": "1. The Board Member agrees that the Confidential Information he or she receives shall be used solely for the benefit of the HNBA Board Work, and that all rights to the proprietary and novel features contained in the Confidential Information are reserved by the disclosing Party. "
+                },
+                {
+                    "file_path": "contractnli/HNBA-2017-18-Confidentiality-Agreement.txt",
+                    "span": [
+                        6966,
+                        7151
+                    ],
+                    "answer": "6. The Board Member agrees that no license under any patent, copyright or other intellectual property right is granted by implication or otherwise to Board Members under this Agreement."
+                }
+            ]
+        },
+        {
+            "query": "Consider HNBA's Confidentiality Agreement; Does the document state that Confidential Information shall only include technical information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/HNBA-2017-18-Confidentiality-Agreement.txt",
+                    "span": [
+                        1498,
+                        1551
+                    ],
+                    "answer": "1. The term “Confidential Information” shall include:"
+                },
+                {
+                    "file_path": "contractnli/HNBA-2017-18-Confidentiality-Agreement.txt",
+                    "span": [
+                        1729,
+                        3112
+                    ],
+                    "answer": "(a) Any information, whether in oral, written, graphic, electronic, machine readable or any other form, that is provided to the Board Member by or on behalf of the HNBA in connection with the Board Member’s performance of his or her duties as an HNBA Board Member and that is not otherwise readily available to the public, including membership lists, financial reports, personnel evaluations, program plans and reports, memoranda, e-mail and communications related to HNBA business – whether originated by an HNBA member or not, and communications that may be protected by the Attorney-Client Privilege or the Attorney Work Product Doctrine;\n(c) Written and spoken information provided to the Board Member in the performance of his or her duty to evaluate prospective nominees for judicial or executive office who have requested the support of the HNBA, including but not limited to (1) completed questionnaires and any other data furnished by the candidate or third parties to the HNBA; (ii) confidential information gathered by the Board Member or told to the Board Member during any investigation or evaluation of any candidate being considered for endorsement; (iii) conversation, colloquy, deliberations, evaluations, and conclusions concerning a prospective nominee expressed during the evaluation or consideration of the candidates’ qualifications or endorsement request; and "
+                }
+            ]
+        },
+        {
+            "query": "Consider HNBA's Confidentiality Agreement; Does the document require that all Confidential Information be expressly identified by the Disclosing Party?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/HNBA-2017-18-Confidentiality-Agreement.txt",
+                    "span": [
+                        1498,
+                        3494
+                    ],
+                    "answer": "1. The term “Confidential Information” shall include:\n(a) All information that is delivered by or on behalf of the HNBA to the Board Member in written, graphic or electronic form and that is marked “confidential” or “proprietary;”\n(a) Any information, whether in oral, written, graphic, electronic, machine readable or any other form, that is provided to the Board Member by or on behalf of the HNBA in connection with the Board Member’s performance of his or her duties as an HNBA Board Member and that is not otherwise readily available to the public, including membership lists, financial reports, personnel evaluations, program plans and reports, memoranda, e-mail and communications related to HNBA business – whether originated by an HNBA member or not, and communications that may be protected by the Attorney-Client Privilege or the Attorney Work Product Doctrine;\n(c) Written and spoken information provided to the Board Member in the performance of his or her duty to evaluate prospective nominees for judicial or executive office who have requested the support of the HNBA, including but not limited to (1) completed questionnaires and any other data furnished by the candidate or third parties to the HNBA; (ii) confidential information gathered by the Board Member or told to the Board Member during any investigation or evaluation of any candidate being considered for endorsement; (iii) conversation, colloquy, deliberations, evaluations, and conclusions concerning a prospective nominee expressed during the evaluation or consideration of the candidates’ qualifications or endorsement request; and (iv) the decision of any committee or the Board of Governors concerning whether a prospective nominee is qualified for appointment; and\n(b) Any personally identifiable information including, but not limited to, name, address, telephone number, date of birth, social security number, e-mail address or any combination thereof provided by or on behalf of the HNBA to the Board Member."
+                }
+            ]
+        },
+        {
+            "query": "Consider HNBA's Confidentiality Agreement; Does the document mention that some obligations of the Agreement may survive the termination of the Agreement?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/HNBA-2017-18-Confidentiality-Agreement.txt",
+                    "span": [
+                        7634,
+                        7830
+                    ],
+                    "answer": "Termination or expiration of this Agreement shall not relieve the Board Member of any obligation with respect to the Confidential Information disclosed or developed hereunder prior to termination."
+                }
+            ]
+        },
+        {
+            "query": "Consider HNBA's Confidentiality Agreement; Does the document allow the Receiving Party to independently develop information that is similar to the Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/HNBA-2017-18-Confidentiality-Agreement.txt",
+                    "span": [
+                        5669,
+                        5791
+                    ],
+                    "answer": "3. The HNBA agrees that the Board Member shall not be liable for any disclosure or use of any Confidential Information if:"
+                },
+                {
+                    "file_path": "contractnli/HNBA-2017-18-Confidentiality-Agreement.txt",
+                    "span": [
+                        6124,
+                        6455
+                    ],
+                    "answer": "(c) The Board Member can demonstrate by documentary evidence or otherwise that such Confidential Information was known to him or her prior to its disclosure to the Board Member by the HNBA or was independently developed by the Board Member prior to such disclosure for purposes unrelated to his or her service as a Board Member; or"
+                }
+            ]
+        },
+        {
+            "query": "Consider HNBA's Confidentiality Agreement; Does the document permit the Receiving Party to retain some Confidential Information even after its return or destruction?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/HNBA-2017-18-Confidentiality-Agreement.txt",
+                    "span": [
+                        7325,
+                        7452
+                    ],
+                    "answer": "The HNBA will keep a copy in its files for a period of two (2) years after the completion of each Candidate’s specific request."
+                }
+            ]
+        },
+        {
+            "query": "Consider HNBA's Confidentiality Agreement; Does the document allow verbally conveyed information to be considered as Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/HNBA-2017-18-Confidentiality-Agreement.txt",
+                    "span": [
+                        1498,
+                        1551
+                    ],
+                    "answer": "1. The term “Confidential Information” shall include:"
+                },
+                {
+                    "file_path": "contractnli/HNBA-2017-18-Confidentiality-Agreement.txt",
+                    "span": [
+                        1729,
+                        2612
+                    ],
+                    "answer": "(a) Any information, whether in oral, written, graphic, electronic, machine readable or any other form, that is provided to the Board Member by or on behalf of the HNBA in connection with the Board Member’s performance of his or her duties as an HNBA Board Member and that is not otherwise readily available to the public, including membership lists, financial reports, personnel evaluations, program plans and reports, memoranda, e-mail and communications related to HNBA business – whether originated by an HNBA member or not, and communications that may be protected by the Attorney-Client Privilege or the Attorney Work Product Doctrine;\n(c) Written and spoken information provided to the Board Member in the performance of his or her duty to evaluate prospective nominees for judicial or executive office who have requested the support of the HNBA, including but not limited to "
+                }
+            ]
+        },
+        {
+            "query": "Consider HNBA's Confidentiality Agreement; Does the document allow the Receiving Party to share some Confidential Information with third parties, including consultants, agents, and professional advisors?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/HNBA-2017-18-Confidentiality-Agreement.txt",
+                    "span": [
+                        4549,
+                        5668
+                    ],
+                    "answer": "The Board Member will not use or disclose Confidential Information to any third party for any purpose other than the performance of his or her duties as a Board Member of the HNBA unless and until the HNBA expressly authorizes the disclosure in writing. Board Member specifically agrees not to use any personally identifiable information provided by or on behalf of the HNBA, its contractors, affiliates, vendors, sponsors or employees, for any direct marketing and not to transfer such information to any third party.\n2. The Board Member agrees to restrict dissemination of Confidential Information to those persons employed by the Board Member (or the Board Member’s employer) who require access to the Confidential Information so as to assist the Board Member in carrying out his or her duties to the HNBA and then only if such personnel has a clear understanding of the confidentiality obligations imposed by this agreement and also agrees to maintain the confidentiality of the Confidential Information in accordance with the terms hereof by signing this Agreement before any Confidential Information is disclosed."
+                }
+            ]
+        },
+        {
+            "query": "Consider HNBA's Confidentiality Agreement; Does the document require the Receiving Party to notify the Disclosing Party if they are required by law, regulation, or judicial process to disclose any Confidential Information?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/HNBA-2017-18-Confidentiality-Agreement.txt",
+                    "span": [
+                        6456,
+                        6800
+                    ],
+                    "answer": "(d) The Board Member was legally required to disclose the Confidential Information, provided that the Board Member (i) provides the HNBA and/or other disclosing party with written notice within five (5) days of knowing of such legal requirement so that the HNBA has the opportunity to pursue its rights regarding such potential disclosure, and "
+                }
+            ]
+        },
+        {
+            "query": "Consider HNBA's Confidentiality Agreement; Does the document allow the Receiving Party to acquire information similar to the Confidential Information from a third party?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/HNBA-2017-18-Confidentiality-Agreement.txt",
+                    "span": [
+                        5669,
+                        5791
+                    ],
+                    "answer": "3. The HNBA agrees that the Board Member shall not be liable for any disclosure or use of any Confidential Information if:"
+                },
+                {
+                    "file_path": "contractnli/HNBA-2017-18-Confidentiality-Agreement.txt",
+                    "span": [
+                        5954,
+                        6123
+                    ],
+                    "answer": "(b) Such Confidential Information is lawfully obtained by the Board Member from a third- party or parties independent of the HNBA prior to the Board Member’s disclosure;"
+                }
+            ]
+        },
+        {
+            "query": "Consider HNBA's Confidentiality Agreement; Does the document allow the Receiving Party to share some Confidential Information with their employees?",
+            "snippets": [
+                {
+                    "file_path": "contractnli/HNBA-2017-18-Confidentiality-Agreement.txt",
+                    "span": [
+                        5068,
+                        5668
+                    ],
+                    "answer": "2. The Board Member agrees to restrict dissemination of Confidential Information to those persons employed by the Board Member (or the Board Member’s employer) who require access to the Confidential Information so as to assist the Board Member in carrying out his or her duties to the HNBA and then only if such personnel has a clear understanding of the confidentiality obligations imposed by this agreement and also agrees to maintain the confidentiality of the Confidential Information in accordance with the terms hereof by signing this Agreement before any Confidential Information is disclosed."
+                }
+            ]
+        }
+    ]
+}

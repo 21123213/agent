@@ -1,0 +1,23 @@
+{
+  "tests": [
+    {
+      "query": "What is the governing law of this agreement?",
+      "snippets": [
+        {
+          "file_path": "sample_contract.txt",
+          "span": [0, 1],
+          "answer": "This Agreement is governed by the laws of California."
+        }
+      ]
+    },
+    {
+      "query": "合同的管辖法律是什么？",
+      "snippets": [
+        {
+          "file_path": "sample_contract.txt",
+          "answer": "适用加利福尼亚州法律。"
+        }
+      ]
+    }
+  ]
+}

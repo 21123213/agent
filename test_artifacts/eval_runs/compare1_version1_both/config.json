@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-10-28T23:05:14",
+  "dataset": "test\\contractnli_1.json",
+  "unit_id": 1,
+  "kb_id": 3,
+  "user_id": 1,
+  "pipelines": [
+    "baseline",
+    "full"
+  ],
+  "limit": 0,
+  "scope_files": false,
+  "vector_weight": 0.4,
+  "bm25_weight": 0.6,
+  "hit_k": 10,
+  "settings": {
+    "answer_top_k": 12,
+    "query_expand_n": 3,
+    "rerank_enabled": false,
+    "embedding_model": "text-embedding-v4",
+    "rrf_vector_weight_default": 0.4,
+    "rrf_bm25_weight_default": 0.6
+  }
+}
