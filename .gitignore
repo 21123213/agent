@@ -35,6 +35,7 @@ sql/
 # Node（前端依赖，勿提交）
 node_modules/
 web/node_modules/
+web/dist/
 
 # IDE
 .idea/

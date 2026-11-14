@@ -1,0 +1,179 @@
+# 闲置机「零业务代码」部署专用。
+# 和仓库根目录 docker-compose.yml 的区别：
+#   - 根目录：有 build:，需要源码，在本机/CI 现场构建镜像
+#   - 本文件：只有 image:，从 GHCR 拉现成镜像，目录里不需要 server/、web/
+#
+# 闲置机目录建议只有：
+#   C:\apps\agents-deploy\
+#     docker-compose.yml   ← 本文件
+#     .env                 ← 从仓库 .env.example 复制后填密钥（勿提交 Git）
+#
+# 本步只准备文件；真正 login / pull / up 在后续步骤。
+#
+# 镜像标签可用环境变量覆盖，默认 main：
+#   set IMAGE_TAG=main
+#   docker compose pull
+
+name: agents
+
+services:
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  jaeger:
+    image: jaegertracing/all-in-one:1.57
+    restart: unless-stopped
+    environment:
+      - COLLECTOR_OTLP_ENABLED=true
+    ports:
+      - "16686:16686"
+
+  etcd:
+    image: quay.io/coreos/etcd:v3.5.5
+    restart: unless-stopped
+    environment:
+      - ETCD_AUTO_COMPACTION_MODE=revision
+      - ETCD_AUTO_COMPACTION_RETENTION=1000
+      - ETCD_QUOTA_BACKEND_BYTES=4294967296
+      - ETCD_SNAPSHOT_COUNT=50000
+    volumes:
+      - etcd_data:/etcd
+    command: >
+      etcd
+      -advertise-client-urls=http://127.0.0.1:2379
+      -listen-client-urls=http://0.0.0.0:2379
+      --data-dir=/etcd
+    healthcheck:
+      test: ["CMD", "etcdctl", "endpoint", "health"]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+
+  minio:
+    image: minio/minio:RELEASE.2023-03-20T20-16-18Z
+    restart: unless-stopped
+    environment:
+      MINIO_ACCESS_KEY: minioadmin
+      MINIO_SECRET_KEY: minioadmin
+    volumes:
+      - minio_data:/minio_data
+    command: minio server /minio_data --console-address ":9001"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+
+  milvus:
+    image: milvusdb/milvus:v2.4.17
+    restart: unless-stopped
+    command: ["milvus", "run", "standalone"]
+    security_opt:
+      - seccomp:unconfined
+    environment:
+      ETCD_ENDPOINTS: etcd:2379
+      MINIO_ADDRESS: minio:9000
+    volumes:
+      - milvus_data:/var/lib/milvus
+    depends_on:
+      - etcd
+      - minio
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9091/healthz"]
+      interval: 30s
+      start_period: 90s
+      timeout: 20s
+      retries: 5
+
+  # 自制镜像：API（来自 GHCR，无 build）
+  server:
+    image: ghcr.io/21123213/agents-server:${IMAGE_TAG:-main}
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      REDIS_HOST: redis
+      REDIS_PORT: "6379"
+      REDIS_URL: redis://redis:6379/0
+      MILVUS_MODE: standalone
+      MILVUS_HOST: milvus
+      MILVUS_PORT: "19530"
+      OTEL_EXPORTER_OTLP_ENDPOINT: http://jaeger:4317
+      OTEL_SERVICE_NAME: agents-server
+      CORS_ORIGINS: http://localhost:5173,http://localhost:3000,http://localhost,http://127.0.0.1
+    volumes:
+      - uploads_data:/app/uploads
+      - logs_data:/app/logs
+    depends_on:
+      redis:
+        condition: service_healthy
+      milvus:
+        condition: service_started
+      jaeger:
+        condition: service_started
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 20s
+      timeout: 5s
+      retries: 10
+      start_period: 40s
+
+  # 与 server 同一镜像，只改启动命令
+  worker:
+    image: ghcr.io/21123213/agents-server:${IMAGE_TAG:-main}
+    restart: unless-stopped
+    command:
+      [
+        "celery",
+        "-A",
+        "app.celery_app.celery_app",
+        "worker",
+        "--loglevel=info",
+        "--concurrency=2",
+      ]
+    env_file:
+      - .env
+    environment:
+      REDIS_HOST: redis
+      REDIS_PORT: "6379"
+      REDIS_URL: redis://redis:6379/0
+      MILVUS_MODE: standalone
+      MILVUS_HOST: milvus
+      MILVUS_PORT: "19530"
+      OTEL_EXPORTER_OTLP_ENDPOINT: http://jaeger:4317
+      OTEL_SERVICE_NAME: agents-worker
+    volumes:
+      - uploads_data:/app/uploads
+      - logs_data:/app/logs
+    depends_on:
+      redis:
+        condition: service_healthy
+      milvus:
+        condition: service_started
+      server:
+        condition: service_started
+
+  web:
+    image: ghcr.io/21123213/agents-web:${IMAGE_TAG:-main}
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    depends_on:
+      server:
+        condition: service_healthy
+
+volumes:
+  redis_data:
+  etcd_data:
+  minio_data:
+  milvus_data:
+  uploads_data:
+  logs_data:
